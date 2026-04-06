@@ -1,6 +1,9 @@
 #include <Arduino.h>
 #include <NimBLEDevice.h>
 
+/** 
+ * 
+ */
 static NimBLEAdvertisedDevice* foundDevice = nullptr;
 static NimBLERemoteCharacteristic* notifyChar = nullptr;
 static NimBLERemoteCharacteristic* rwChar = nullptr;
